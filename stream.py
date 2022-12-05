@@ -9,3 +9,4 @@ Hello world
 df = pd.read_csv("data.csv")
 st.bar_chart(df)
 
+date = st.date_input("Pick a date")
